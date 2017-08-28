@@ -1,0 +1,18 @@
+{
+  "name": "pd2-nodejs",
+  "version": "1.0.0",
+  "description": "vocation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khristina",
+  "license": "ISC",
+  "devDependencies": {
+    "wdio-dot-reporter": "0.0.8",
+	"wdio-allure-reporter": "~0.0.2",
+    "wdio-jasmine-framework": "^0.3.1",
+    "wdio-selenium-standalone-service": "0.0.8",
+    "webdriverio": "^4.8.0"
+  }
+}
