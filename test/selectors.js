@@ -1,10 +1,10 @@
-describe('Проверка на селекторы ID', function() {
+describe('РџСЂРѕРІРµСЂРєР° РЅР° СЃРµР»РµРєС‚РѕСЂС‹ ID', function() {
     beforeAll(function(done) {
         browser.url("https://www.google.com.ua").waitForVisible('.logo-subtext');
     });
 
 
-    it('Проверка Дженкинса', function(done) {
+    it('РџСЂРѕРІРµСЂРєР° Р”Р¶РµРЅРєРёРЅСЃР°', function(done) {
 
         browser.url("https://www.google.com.ua/imghp?hl=uk&tab=wi")
              .waitForExist("#hplogo", 2000);
