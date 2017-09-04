@@ -1,0 +1,16 @@
+14:57:59.881 COMMAND: POST /elements - {"using":"css selector","value":"#gb_Xa gb_6b"}
+
+14:57:59.909 RESULT: []
+
+14:58:00.384 COMMAND: POST /elements - {"using":"css selector","value":"#gb_Xa gb_6b"}
+
+14:58:00.414 RESULT: []
+
+14:58:00.885 COMMAND: POST /elements - {"using":"css selector","value":"#gb_Xa gb_6b"}
+
+14:58:00.907 RESULT: []
+
+14:58:01.398 COMMAND: POST /elements - {"using":"css selector","value":"#gb_Xa gb_6b"}
+
+14:58:01.418 RESULT: []
+

@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504092962181' stop='1504092966752'>
+    <name>�������� �� ��������� IDsuite1</name>
+    <title>�������� �� ��������� IDsuite1</title>
+    <test-cases>
+        <test-case start='1504092966752' status='pending' stop='1504092966752'>
+            <name>function patchedOrigFn(done) {
+                                                        // specFn will be replaced by wdio-sync and will always return a promise
+                                                        return specFn.call(this).then(function () {
+                                                            return done();
+                                                        }, function (e) {
+                                                            return done.fail(e);
+                                                        });
+                                                    }spec0</name>
+            <title>function patchedOrigFn(done) {
+                                                        // specFn will be replaced by wdio-sync and will always return a promise
+                                                        return specFn.call(this).then(function () {
+                                                            return done();
+                                                        }, function (e) {
+                                                            return done.fail(e);
+                                                        });
+                                                    }spec0</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

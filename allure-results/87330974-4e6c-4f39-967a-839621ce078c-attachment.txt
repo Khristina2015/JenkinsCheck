@@ -1,0 +1,4 @@
+15:08:43.441 COMMAND: POST /elements - {"using":"id","value":"hplogo"}
+
+15:08:43.468 RESULT: [{"ELEMENT":"0.06138703125842859-1"}]
+

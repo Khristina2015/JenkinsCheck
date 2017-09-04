@@ -1,0 +1,8 @@
+14:57:59.069 COMMAND: POST /elements - {"using":"id","value":"_eEe"}
+
+14:57:59.088 RESULT: [{"ELEMENT":"0.4583758415549104-1"}]
+
+14:57:59.098 COMMAND: GET /element/0.4583758415549104-1/displayed - {}
+
+14:57:59.118 RESULT: true
+

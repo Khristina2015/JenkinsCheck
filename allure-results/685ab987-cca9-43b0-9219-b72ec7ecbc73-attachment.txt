@@ -1,0 +1,8 @@
+15:41:44.036 COMMAND: POST /elements - {"using":"css selector","value":".logo-subtext"}
+
+15:41:44.240 RESULT: [{"ELEMENT":"0.7451772972615331-1"}]
+
+15:41:44.240 COMMAND: GET /element/0.7451772972615331-1/displayed - {}
+
+15:41:44.280 RESULT: true
+

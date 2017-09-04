@@ -1,0 +1,8 @@
+14:57:52.910 COMMAND: POST /wd/hub/session - {"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"maxInstances":5,"browserName":"chrome","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.6.2","name":"webdriverio"}}}
+
+14:57:55.840 RESULT: {"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8)","userDataDir":"C:\\Users\\User\\AppData\\Local\\Temp\\scoped_dir7992_2546"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"_":"13 more keys: [\"locationContextEnabled\",\"mobileEmulationEnabled\",\"nativeEvents\",\"networkConnectionEnabled\",\"pageLoadStrategy\",\"platform\",\"rotatable\",\"setWindowRect\",\"takesHeapSnapshot\",\"takesScreenshot\",\"unexpectedAlertBehaviour\",\"version\",\"webStorageEnabled\"]"}
+
+14:57:55.921 COMMAND: POST /url - {"url":"https://www.google.com.ua/"}
+
+14:57:59.057 RESULT: null
+

@@ -1,0 +1,16 @@
+15:03:18.004 COMMAND: POST /elements - {"using":"css selector","value":".hplogo"}
+
+15:03:18.050 RESULT: []
+
+15:03:18.510 COMMAND: POST /elements - {"using":"css selector","value":".hplogo"}
+
+15:03:18.530 RESULT: []
+
+15:03:19.016 COMMAND: POST /elements - {"using":"css selector","value":".hplogo"}
+
+15:03:19.046 RESULT: []
+
+15:03:19.509 COMMAND: POST /elements - {"using":"css selector","value":".hplogo"}
+
+15:03:19.559 RESULT: []
+

@@ -1,0 +1,16 @@
+14:50:00.961 COMMAND: POST /elements - {"using":"xpath","value":"//span[normalize-space() = \"Gmail\"]"}
+
+14:50:01.915 RESULT: []
+
+14:50:01.923 COMMAND: POST /elements - {"using":"xpath","value":"//span[normalize-space() = \"Gmail\"]"}
+
+14:50:02.397 RESULT: []
+
+14:50:02.405 COMMAND: POST /elements - {"using":"xpath","value":"//span[normalize-space() = \"Gmail\"]"}
+
+14:50:02.428 RESULT: []
+
+14:50:02.675 COMMAND: POST /elements - {"using":"xpath","value":"//span[normalize-space() = \"Gmail\"]"}
+
+14:50:02.700 RESULT: []
+

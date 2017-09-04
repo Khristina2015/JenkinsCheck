@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "wdio-dot-reporter": "0.0.8",
-	"wdio-allure-reporter": "~0.0.2",
+	"wdio-allure-reporter": "0.1.2",
     "wdio-jasmine-framework": "^0.3.1",
     "wdio-selenium-standalone-service": "0.0.8",
     "webdriverio": "^4.8.0"

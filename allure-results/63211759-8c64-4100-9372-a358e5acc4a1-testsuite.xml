@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504520236029' stop='1504520242157'>
+    <name>�������� �� ��������� ID</name>
+    <title>�������� �� ��������� ID</title>
+    <test-cases>
+        <test-case start='1504520241534' status='passed' stop='1504520242157'>
+            <name>�������� ���������</name>
+            <title>�������� ���������</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\One\\JenkinsCheck\\test\\selectors.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504520241544' status='passed' stop='1504520242012'>
+                    <name>POST /wd/hub/session/566b3e3b57b7096eaec5100cd3711674/url</name>
+                    <title>POST /wd/hub/session/566b3e3b57b7096eaec5100cd3711674/url</title>
+                    <attachments>
+                        <attachment title='Request' source='955d1a58-88ed-42b4-b34a-8416e6c6672c-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='7a926a51-1a88-49d0-b77f-63f3769982e9-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504520242037' status='passed' stop='1504520242155'>
+                    <name>POST /wd/hub/session/566b3e3b57b7096eaec5100cd3711674/elements</name>
+                    <title>POST /wd/hub/session/566b3e3b57b7096eaec5100cd3711674/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='71164ae4-4041-4fba-9f7b-b221527182fd-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='d1683cba-e908-470f-bc4f-d00a614fe3a5-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
