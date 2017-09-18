@@ -1,10 +1,8 @@
-describe('РџСЂРѕРІРµСЂРєР° РЅР° СЃРµР»РµРєС‚РѕСЂС‹ ID', function() {
+describe('Заходим в гугл', function() {
     beforeAll(function(done) {
-        browser.url("https://www.google.com.ua").waitForVisible('.logo-subtext');
+        browser.url("https://www.google.com.ua").waitForVisible('.gsst_a');
     });
-
-
-    it('РџСЂРѕРІРµСЂРєР° Р”Р¶РµРЅРєРёРЅСЃР°', function(done) {
+    it('Гугл открытие', function(done) {
 
         browser.url("https://www.google.com.ua/imghp?hl=uk&tab=wi")
              .waitForExist("#hplogo", 2000);

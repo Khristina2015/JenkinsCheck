@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1505713775559' stop='1505713778645'>
+    <name>Проверка на селекторы ID</name>
+    <title>Проверка на селекторы ID</title>
+    <test-cases>
+        <test-case start='1505713778032' status='passed' stop='1505713778644'>
+            <name>���� ��������</name>
+            <title>���� ��������</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\One\\JenkinsCheck\\test\\selectors.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1505713778034' status='passed' stop='1505713778574'>
+                    <name>POST /wd/hub/session/5e6a6ecceb23c8da52e9471e966d44db/url</name>
+                    <title>POST /wd/hub/session/5e6a6ecceb23c8da52e9471e966d44db/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b29b327f-b315-48e1-871b-e0982e3e62de-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='89df17b9-f5cf-4ef1-8f91-0cf1d8578c65-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1505713778599' status='passed' stop='1505713778639'>
+                    <name>POST /wd/hub/session/5e6a6ecceb23c8da52e9471e966d44db/elements</name>
+                    <title>POST /wd/hub/session/5e6a6ecceb23c8da52e9471e966d44db/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='79300e8a-24e6-492d-b94d-78116e5a9986-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='08081bf2-97cc-4206-aad7-b17095026351-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

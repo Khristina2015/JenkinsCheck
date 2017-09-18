@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1505713713565' stop='1505713726588'>
+    <name>Проверка на селекторы ID</name>
+    <title>Проверка на селекторы ID</title>
+    <test-cases>
+        <test-case start='1505713725983' status='broken' stop='1505713726587'>
+            <name>Проверка Дженкинса</name>
+            <title>Проверка Дженкинса</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["D:\\One\\JenkinsCheck\\test\\selectors.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1505713725985' status='passed' stop='1505713726535'>
+                    <name>POST /wd/hub/session/f53c80ee16ceea318353d49156ee737c/url</name>
+                    <title>POST /wd/hub/session/f53c80ee16ceea318353d49156ee737c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='099bd943-77d9-420c-9a94-673bc06988ca-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='07299be4-e70f-4499-8d0f-4f943eb5402a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1505713726543' status='passed' stop='1505713726579'>
+                    <name>POST /wd/hub/session/f53c80ee16ceea318353d49156ee737c/elements</name>
+                    <title>POST /wd/hub/session/f53c80ee16ceea318353d49156ee737c/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='fff54eef-cadd-414a-98c7-98de56f97920-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='861199aa-f4f6-40e9-b56a-5a34708c850e-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Failed: element ("����� � Google") still not visible after 10000ms</message>
+                <stack-trace>Error: element ("����� � Google") still not visible after 10000ms
+                    at UserContext.&lt;anonymous> (D:\One\JenkinsCheck\test\selectors.js:3:50)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
